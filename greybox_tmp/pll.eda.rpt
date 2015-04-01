@@ -1,0 +1,76 @@
+EDA Netlist Writer report for pll
+Thu Mar 26 15:01:56 2015
+Quartus II 64-Bit Version 12.1 Build 177 11/07/2012 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. EDA Netlist Writer Summary
+  3. EDA Netlist Writer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2012 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------+
+; EDA Netlist Writer Summary                                        ;
++---------------------------+---------------------------------------+
+; EDA Netlist Writer Status ; Successful - Thu Mar 26 15:01:56 2015 ;
+; Revision Name             ; pll                                   ;
+; Top-level Entity Name     ; pll                                   ;
+; Family                    ; Cyclone II                            ;
++---------------------------+---------------------------------------+
+
+
++-----------------------------+
+; EDA Netlist Writer Messages ;
++-----------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit EDA Netlist Writer
+    Info: Version 12.1 Build 177 11/07/2012 SJ Full Version
+    Info: Copyright (C) 1991-2012 Altera Corporation. All rights reserved.
+    Info: Your use of Altera Corporation's design tools, logic functions 
+    Info: and other software and tools, and its AMPP partner logic 
+    Info: functions, and any output files from any of the foregoing 
+    Info: (including device programming or simulation files), and any 
+    Info: associated documentation or information are expressly subject 
+    Info: to the terms and conditions of the Altera Program License 
+    Info: Subscription Agreement, Altera MegaCore Function License 
+    Info: Agreement, or other applicable license agreement, including, 
+    Info: without limitation, that your use is for the sole purpose of 
+    Info: programming logic devices manufactured by Altera and sold by 
+    Info: Altera or its authorized distributors.  Please refer to the 
+    Info: applicable agreement for further details.
+    Info: Processing started: Thu Mar 26 15:01:55 2015
+Info: Command: quartus_eda pll --greybox_verilog=on --netlist=M:/Soc/lab7/pll_syn.v
+Info (119004): Automatically selected device EP2C5T144C6 for design pll
+Info (15535): Implemented PLL "altpll:altpll_component|pll" as Cyclone II PLL type
+    Info (15099): Implementing clock multiplication of 5, clock division of 2, and phase shift of 0 degrees (0 ps) for altpll:altpll_component|_clk0 port
+    Info (15099): Implementing clock multiplication of 5, clock division of 4, and phase shift of 0 degrees (0 ps) for altpll:altpll_component|_clk1 port
+Info (202006): Generating greybox netlist output files with original lutmask
+Info: Quartus II 64-Bit EDA Netlist Writer was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 400 megabytes
+    Info: Processing ended: Thu Mar 26 15:01:57 2015
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:01
+
+

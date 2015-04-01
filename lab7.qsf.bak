@@ -1,0 +1,114 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2012 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 64-Bit
+# Version 12.1 Build 177 11/07/2012 SJ Full Version
+# Date created = 14:39:47  March 26, 2015
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		lab7_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone II"
+set_global_assignment -name DEVICE EP2C35F672C6
+set_global_assignment -name TOP_LEVEL_ENTITY lab7
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 12.1
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "14:39:47  MARCH 26, 2015"
+set_global_assignment -name LAST_QUARTUS_VERSION 12.1
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (VHDL)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT VHDL -section_id eda_simulation
+set_global_assignment -name BSF_FILE dsp.bsf
+set_global_assignment -name SOURCE_FILE "DSP_Pin_Assignments _DE235.qsf"
+set_global_assignment -name VERILOG_FILE dsp.v
+set_global_assignment -name SOURCE_FILE lab7.qsf
+set_global_assignment -name BDF_FILE lab7.bdf
+set_global_assignment -name QIP_FILE pll.qip
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name QIP_FILE altpll0.qip
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "3.3-V LVTTL"
+set_global_assignment -name USE_CONFIGURATION_DEVICE ON
+set_global_assignment -name RESERVE_ALL_UNUSED_PINS "AS INPUT TRI-STATED"
+set_global_assignment -name RESERVE_ALL_UNUSED_PINS_NO_OUTPUT_GND "AS INPUT TRI-STATED"
+set_global_assignment -name CDF_FILE output_files/Chain3.cdf
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -entity dsp -section_id Top
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -entity dsp -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -entity dsp -section_id Top
+set_global_assignment -name LL_ROOT_REGION ON -entity dsp -section_id "Root Region"
+set_global_assignment -name LL_MEMBER_STATE LOCKED -entity dsp -section_id "Root Region"
+set_location_assignment PIN_N2 -to CLOCK_50
+set_location_assignment PIN_J22 -to GPIO_0[1]
+set_location_assignment PIN_E25 -to GPIO_0[3]
+set_location_assignment PIN_F24 -to GPIO_0[4]
+set_location_assignment PIN_F23 -to GPIO_0[5]
+set_location_assignment PIN_J21 -to GPIO_0[6]
+set_location_assignment PIN_J20 -to GPIO_0[7]
+set_location_assignment PIN_F25 -to GPIO_0[8]
+set_location_assignment PIN_F26 -to GPIO_0[9]
+set_location_assignment PIN_N18 -to GPIO_0[10]
+set_location_assignment PIN_P18 -to GPIO_0[11]
+set_location_assignment PIN_G23 -to GPIO_0[12]
+set_location_assignment PIN_G24 -to GPIO_0[13]
+set_location_assignment PIN_K22 -to GPIO_0[14]
+set_location_assignment PIN_G25 -to GPIO_0[15]
+set_location_assignment PIN_H23 -to GPIO_0[16]
+set_location_assignment PIN_J23 -to GPIO_0[18]
+set_location_assignment PIN_L23 -to GPIO_0[32]
+set_location_assignment PIN_L24 -to GPIO_0[33]
+set_location_assignment PIN_L19 -to GPIO_0[35]
+set_location_assignment PIN_T23 -to GPIO_1[16]
+set_location_assignment PIN_T24 -to GPIO_1[17]
+set_location_assignment PIN_T25 -to GPIO_1[18]
+set_location_assignment PIN_T18 -to GPIO_1[19]
+set_location_assignment PIN_T21 -to GPIO_1[20]
+set_location_assignment PIN_T20 -to GPIO_1[21]
+set_location_assignment PIN_U26 -to GPIO_1[22]
+set_location_assignment PIN_U25 -to GPIO_1[23]
+set_location_assignment PIN_U23 -to GPIO_1[24]
+set_location_assignment PIN_U24 -to GPIO_1[25]
+set_location_assignment PIN_R19 -to GPIO_1[26]
+set_location_assignment PIN_T19 -to GPIO_1[27]
+set_location_assignment PIN_U20 -to GPIO_1[28]
+set_location_assignment PIN_U21 -to GPIO_1[29]
+set_location_assignment PIN_V26 -to GPIO_1[30]
+set_location_assignment PIN_V25 -to GPIO_1[31]
+set_location_assignment PIN_V24 -to GPIO_1[32]
+set_location_assignment PIN_W25 -to GPIO_1[34]
+set_location_assignment PIN_W23 -to GPIO_1[35]
+set_location_assignment PIN_N25 -to SWITCH
+set_global_assignment -name CDF_FILE output_files/Chain1.cdf
+set_global_assignment -name CDF_FILE output_files/Chain4.cdf
+set_global_assignment -name CDF_FILE output_files/Chain2.cdf
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

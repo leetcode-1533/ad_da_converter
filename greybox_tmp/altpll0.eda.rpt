@@ -1,0 +1,50 @@
+EDA Netlist Writer report for altpll0
+Wed Apr 01 16:39:06 2015
+Quartus II 64-Bit Version 12.1 Build 177 11/07/2012 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. EDA Netlist Writer Summary
+  3. EDA Netlist Writer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2012 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------+
+; EDA Netlist Writer Summary                                        ;
++---------------------------+---------------------------------------+
+; EDA Netlist Writer Status ; Successful - Wed Apr 01 16:39:06 2015 ;
+; Revision Name             ; altpll0                               ;
+; Top-level Entity Name     ; altpll0                               ;
+; Family                    ; Cyclone II                            ;
++---------------------------+---------------------------------------+
+
+
++-----------------------------+
+; EDA Netlist Writer Messages ;
++-----------------------------+
+Can't read Quartus II 64-Bit message file E:/tailieu/altera_work/lab7/greybox_tmp/db/altpll0.eda.qmsg.
+Make sure the file exists and is up to date, and you have permission to read and write the file.
+
+
